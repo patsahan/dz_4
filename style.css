@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    color: #ddd;
+    background-color: #333;
+    margin: 0; /* Виправлено відступи по замовчуванню */
+}
+
+/* Заголовок/лого Назва */
+.header {
+    padding: 90px;
+    text-align: center;
+    background-color: #b94c64;
+    color: #fffefe;
+}
+
+/* Стилізація верхньої панелі навігації */
+nav {
+    display: flex;
+    background-color: #ffffff;
+}
+
+nav a {
+    color: #000000;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: #000;
+    cursor: pointer;
+}
+nav p{
+    color: #000000;
+}
+
+.main {
+    background-color: #fff;
+    padding: 50px;
+    color: #b94c64;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 90%;
+    border: 1px solid #ccc;
+    background-color: #918d8d;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.text {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.image {
+    flex-shrink: 0;
+    max-width: 50%; 
+    height: auto;
+
+}
+.card-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.card {
+    width: 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    margin: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card h3 {
+    margin-top: 0;
+    color: #000000;
+}
+
+.card p {
+    color: #000000;
+}
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #d4d4d4;
+    color: #000;
+ } 
